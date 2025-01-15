@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: linear-gradient(120deg, #007bff, #d0314c);
+    height: 100vh;
+    width: 100%;
+}
+.cont_inside{
+    background-color:whitesmoke;
+    /* margin-top: 110px;
+    margin-left: 540px;
+    margin-right: 100px;
+    height: 500px;
+    width: 400px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 3%;
+    border: 2px solid black;
+    height: 500px;
+    width: 430px;
+ }
+
+ .register{
+    padding-top: 8px;
+    padding-left: 145px;
+    height: 65px;
+    border-bottom: 1px solid gray;
+ }
+
+.inside-form{
+    padding-left: 20px;
+    /* padding-top: 10px; */
+     position: relative; 
+    /* background-color: whitesmoke; */
+  
+    }
+   
+.inside-form input{
+    height: 50px;
+    width: 380px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family:sans-serif;
+    /* color: gray; */
+    /* position: relative;  */
+    background-color: whitesmoke;
+}
+.inside-form label{
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        color: #adadad;
+        transform: translateY(-1%);
+        font-size: 16px;
+        pointer-events: none;
+        animation-name: nishant;
+    
+}
+ @keyframes nishant{
+    from{
+          
+    }
+    to{
+
+    }
+ }
+/* .inside-form span::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background: #2691d9;
+    transition: .5s;
+}
+
+.inside-form input:focus~label,
+.inside-form input:valid~label {
+    top: -0.2px;
+    color: #2691d9;
+}
+
+.inside-form input:focus~span::before,
+.inside-form input:Valid~span::before {
+    width: 100%;
+}  */
+
+.sign-up input{
+    margin-left: 35px;
+    margin-top: 25px;
+    height: 45px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 1.3rem;    
+}
+.sign-up input:hover{
+    background-color: skyblue;
+    color: white;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login a{
+    /* margin-top: 10px; */
+    color: skyblue;
+}
+.login p{
+    margin-top: 15px;
+}
